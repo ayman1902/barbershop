@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --mainfont:'Poppins', sans-serif;
+    --maincolor:#CF034C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    font-family: var(--mainfont);
+    overflow-x: hidden;
+    height: 1100% ;
+    width: 100%;
+}
+/*aside1*/
+.aside1{
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+    background: url('./img/men-having-their-haircut-1813272\ 1.png') center center/cover;
+    background-attachment: fixed;
+}
+/*navbar*/
+.navbar{
+
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40vw;
+    margin-right: 50px;
+    list-style: none;
+}
+.logo-text{
+    margin-left: 30px;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+#span-txt{
+    color: #CF034C;
+}
+.item{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px 20px;
+}
+.mainbox{
+    margin-top: 50px;
+
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.main-text{
+    font-size: 55px;
+    font-weight: 600;
+}
+.sec-text{
+    font-size: 50px;
+}
+.footer-text{
+    margin-bottom: -25px;
+    font-size: 30px;
+}
+.main-but{
+    background-color: #CF034C;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 60px;
+    color: white;
+    font-family: inherit;
+    font-size: 40px;
+    font-weight: 600;
+}
+/*aside2*/
+.aside2{
+
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 3;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
+}
+.main-img{
+    height: 500px;
+    width: 600px;
+}
+.aside{
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100vw;
+}
+.about{
+    color: #CF034C;
+    font-size: 45px;
+    font-weight: 600;
+}
+.para{
+    font-size: 25px;
+    font-weight: 300;
+}
+/*aside3*/
+.aside3{
+    height: 20vh;
+    background: url('./img/hai-phung-m4Pd_e-4zKs-unsplash\ 1.png') center center/cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+/*aside4*/
+.aside4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+}
+.showimg{
+    border-radius: 20px;
+    height:500px;
+    margin: 20px;
+    width: 500px;
+}
+/*aside5*/
+.aside5{
+    height: 20vh;
+    background: url('./img/shallow-focus-photo-of-barber-s-pole-3162022\ 1.png') center center/cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+/*aside6*/
+.aside6{
+
+    height: 70vh;
+    position: relative;
+
+}
+.sign-text{
+    color: #CF034C;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vhh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    height: 300px;
+    width: 500px;
+    
+}
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+.main-input{
+    width: 500px;
+    height: 60px;
+    border-radius: 6px;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background: none;
+}
+.main-input::placeholder{
+    color: rgb(61, 61, 61);
+    font-weight: 500;
+    
+}
+.pass::placeholder{
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    border-radius: 50%;
+    font-size: 40px;
+    
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+/*footer*/
+.footer{
+    background-color: #CF034C;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.items-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+.footer-logo{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.vector{
+    height: 50px;
+    width: 50px;
+}
+.items-footer{
+    list-style: none;
+    margin-right: -80px;
+}
+/*css for js*/
+
+.dark-contain{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(122, 122, 120);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.dark-mark{
+    height: 35px;
+    width: 35px;
+    background-color: #CF034C;
+    border-radius: 50%;
+}
+
+
+/*darkmode*/
+.newdark{
+    color: white;
+    
+}
+.newinput{
+    border: 1px solid white;
+    color: white;
+}
+.newbody{
+    background-color: black;
+}
+.darkcontainnew{
+    justify-content: flex-end;
+    background-color: white;
+}
+/*type writer effect*/
+.footer-text{
+    text-align: center;
+    transform: translate(-13%,50%);
+    position: relative;
+    margin-left: 50px;
+}
+.footer-text::after{
+    content: '';
+    position: absolute;
+    width: 20x;
+    height:95%;
+    right: -10px;
+    margin-right: 5px;
+
+    border-right: 2px solid white;
+    animation: akmi 0.5s infinite ease;
+}
+@keyframes akmi{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/*mobile device*/
+@media only screen and (max-width:1080px){
+    .items-footer{
+        margin-right: 30px;
+    }
+    .aside2{
+        height: 200vh;
+    }
+    .aside4{
+        height: 400vh;
+        z-index: 300;
+    }
+}
+
+
+@media only screen and (max-width:1167px){
+    .items-footer{
+        margin-right: 30px;
+    }
+    .main-img{
+        width: 350px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width:689px){
+    .items{
+        display: none;
+    }
+    .main-text{
+        font-size: 40px;
+    }
+    .sec-text{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:736px){
+    .footer{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .sign-text{
+        font-size: 20px;
+    }
+    .items-footer{
+        justify-content: space-around;
+        margin-right: -10px;
+    }
+    .items-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width:523px){
+    .showimg{
+        height: 300px;
+        width: 300px;
+
+    }
+    .main-but{
+        margin-top: 30px;
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    .main-text{
+        margin-bottom: 50px;
+    }
+    .main-input{
+        width: 350px;
+    }
+    .sign-text{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:498px){
+    .logo-text{
+        text-align: center;
+    }
+    .sec-text{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .main-but{
+        margin-top: 70px;
+    }
+    .main-box{
+        height: 30vh;
+    }
+    .main-text{
+        font-size: 30px;
+        margin-bottom: -100px;
+    }
+    .sec-text{
+        font-size: 25px;
+        margin-bottom: -100px;
+    }
+}
