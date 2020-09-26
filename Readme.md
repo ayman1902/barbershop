@@ -1,2 +1,2 @@
 #barber shop
-the best barber in Rabat
+website name : https://barbershop.netlify.app/
